@@ -1,18 +1,16 @@
-﻿using System;
-
-namespace Lab8CSharp;
+﻿namespace Lab8CSharp;
 
 internal class Program
 {
     static void Main(string[] args)
     {
         Console.WriteLine("Lab8 C# ");
-        Console.WriteLine("-----------------------------------------------");
+        Console.WriteLine("-------------------------------------------------------");
         Console.WriteLine("1. Regular expressions. Count domains cv.ua");
         Console.WriteLine("2. Regular expressions. Replace english words with dots");
-        Console.WriteLine("3. ");
+        Console.WriteLine("3. Regular expressions. Remove duplicate words");
         Console.WriteLine("4. ");
-        Console.WriteLine("-----------------------------------------------");
+        Console.WriteLine("-------------------------------------------------------");
 
 
         try
@@ -28,6 +26,10 @@ internal class Program
                     break;
                 case 2:
                     TasksUsage.Program2();
+                    Console.WriteLine("");
+                    break;
+                case 3:
+                    TasksUsage.Program3();
                     Console.WriteLine("");
                     break;
                 default:

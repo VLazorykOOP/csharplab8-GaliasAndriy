@@ -21,5 +21,15 @@ namespace Lab8CSharp
 
             Console.WriteLine($"Total English words replaced: {count}");
         }
+
+        public static void Program3()
+        {
+            string inputFilePath = "./Task3/input.txt";
+            string outputFilePath = "./Task3/output.txt";
+
+            Task3.RemoveDuplicates(inputFilePath, outputFilePath);
+
+            Console.WriteLine("Duplicate words removed.");
+        }
     }
 }
