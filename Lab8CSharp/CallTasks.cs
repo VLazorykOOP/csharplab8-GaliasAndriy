@@ -14,7 +14,12 @@ namespace Lab8CSharp
 
         public static void Program2()
         {
+            string inputFilePath = "./Task2/input.txt";
+            string outputFilePath = "./Task2/output.txt";
 
+            int count = Task2.ExecuteTask2(inputFilePath, outputFilePath);
+
+            Console.WriteLine($"Total English words replaced: {count}");
         }
     }
 }

@@ -9,7 +9,7 @@ internal class Program
         Console.WriteLine("Lab8 C# ");
         Console.WriteLine("-----------------------------------------------");
         Console.WriteLine("1. Regular expressions. Count domains cv.ua");
-        Console.WriteLine("2. ");
+        Console.WriteLine("2. Regular expressions. Replace english words with dots");
         Console.WriteLine("3. ");
         Console.WriteLine("4. ");
         Console.WriteLine("-----------------------------------------------");
@@ -24,6 +24,10 @@ internal class Program
             {
                 case 1:
                     TasksUsage.Program1();
+                    Console.WriteLine("");
+                    break;
+                case 2:
+                    TasksUsage.Program2();
                     Console.WriteLine("");
                     break;
                 default:
