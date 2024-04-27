@@ -31,5 +31,20 @@ namespace Lab8CSharp
 
             Console.WriteLine("Duplicate words removed.");
         }
+
+        public static void Program4()
+        {
+            int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            int divisor = 3;
+
+            // Write numbers to a binary file
+            Task4.WriteNonMultiplesToFile(numbers, divisor, "./Task4/output.bin");
+            // Read numbers from the binary file and display them
+            Task4.ReadAndDisplayNumbers("./Task4/output.bin");
+        }
+
+        public static void Program5() {
+            Task5.ExecuteTask5();
+        }
     }
 }

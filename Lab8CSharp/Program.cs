@@ -9,7 +9,8 @@ internal class Program
         Console.WriteLine("1. Regular expressions. Count domains cv.ua");
         Console.WriteLine("2. Regular expressions. Replace english words with dots");
         Console.WriteLine("3. Regular expressions. Remove duplicate words");
-        Console.WriteLine("4. ");
+        Console.WriteLine("4. Save and Read binary data");
+        Console.WriteLine("5. Students");
         Console.WriteLine("-------------------------------------------------------");
 
 
@@ -30,6 +31,14 @@ internal class Program
                     break;
                 case 3:
                     TasksUsage.Program3();
+                    Console.WriteLine("");
+                    break;
+                case 4:
+                    TasksUsage.Program4();
+                    Console.WriteLine("");
+                    break;
+                case 5:
+                    TasksUsage.Program5();
                     Console.WriteLine("");
                     break;
                 default:
